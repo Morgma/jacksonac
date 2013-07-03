@@ -6,9 +6,13 @@ group: navigation
 ---
 {% include JB/setup %}
 
+<link href="all-styles.css" rel="stylesheet" type="text/css" media="all">
 
-
-
+<div id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery" data-selector="div.gallery-item">
+    <div class="gallery-item" data-href="banana.jpg" title="Banana">Banana</div>
+    <div class="gallery-item" data-href="apple.jpg" title="Apple">Apple</div>
+    <div class="gallery-item" data-href="orange.jpg" title="Orange">Orange</div>
+</div>
 
 <!-- modal-gallery is the modal dialog used for the image gallery -->
 <div id="modal-gallery" class="modal modal-gallery hide fade" tabindex="-1">
