@@ -1,12 +1,7 @@
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
-  max-width: 700px; 
-  background: #7f7f7f;
-  background: rgba(0,0,0,0.5);
-  color: white;
-  margin-top: 60px;
-}
+  max-width: 700px; }
 
 .container-narrow > hr {
   margin: 30px 0; }
@@ -68,23 +63,3 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
-
-.content img.background {
-        z-index: -999;
-        min-height: 100%;
-        min-width: 1024px;
-        width: 100%;
-        height: auto;
-        position: fixed;
-        top: 0;
-        left: 0;
-}
-
-.page-header > h1 {
-  padding-left: 5px;
-}
-
-.google-map-container {
-  border-style:solid;
-  border-right:thick double black;  
-}
